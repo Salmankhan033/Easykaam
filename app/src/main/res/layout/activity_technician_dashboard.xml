@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/service_provider_dashboard_background"
+    tools:context=".ServiceProviders.ServiceProviderDashboard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/service_man_logout_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:layout_marginLeft="340dp"
+            android:src="@drawable/logout_service_provider_icon"
+            android:transitionName="transition_back2_arrow_btn"/>
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:orientation="vertical"
+            android:padding="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+            <Button
+                android:id="@+id/check_order_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01b22a"
+                android:elevation="5dp"
+                android:text="Check orders"
+                android:textColor="#ffffff"
+                android:transitionName="transition_next_btn" />
+            <Button
+                android:id="@+id/uploadData"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#01b22a"
+                android:elevation="5dp"
+                android:text="Upload Your Medicine "
+                android:textColor="#ffffff"
+                android:layout_marginTop="10dp"
+                android:transitionName="transition_next_btn" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/service_man_icon" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/service_man_dashboard_image" />
+
+
+</LinearLayout>

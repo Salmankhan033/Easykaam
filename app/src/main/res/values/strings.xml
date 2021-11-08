@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Medicine Finder</string>
+    <string name="title_activity_navigation_drawer">NavigationDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+
+    //Navigation Drawer
+    <string name="menu_home">Home</string>
+    <string name="menu_active_jobs">Active Jobs</string>
+    <string name="menu_jobs_history">Jobs History</string>
+    <string name="menu_notifications">Notifications</string>
+    <string name="menu_my_profile">My Profile</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_logout">Logout</string>
+    <string-array name="spin_array">
+        <item>Customer</item>
+        <item>Shopkeeper</item>
+
+
+    </string-array>
+    <string name="title_activity_product_detail">ProductDetailActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+
+
+</resources>

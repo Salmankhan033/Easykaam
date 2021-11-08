@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rehman.medicine">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+
+      <activity android:name=".Common.ProductDetailActivity" />
+        <activity android:name=".Common.SigninSignup.SinInOTPActivity" />
+        <activity android:name=".Common.SigninSignup.OrderActivity" />
+        <activity android:name=".ServiceProviders.ServiceProviderDashboard" />
+        <activity android:name=".Common.RegisterSelectionMainActivity" />
+        <activity android:name=".Common.SigninSignup.LoginOTP" />
+        <activity android:name=".Common.SigninSignup.LoginOption" />
+        <activity android:name=".Common.SigninSignup.Login" />
+
+        <activity android:name=".shopkeeper.UploadProductsActivity" />
+        <activity
+            android:name=".NavigationDrawer.NavigationDrawerActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Common.SigninSignup.SignUp2ndClass" />
+        <activity android:name=".Common.SigninSignup.SignUp" />
+        <activity
+            android:name=".Common.WelcomeScreen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Common.SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

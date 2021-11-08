@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "917958273505",
+    "project_id": "medicine-9bcf8",
+    "storage_bucket": "medicine-9bcf8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:917958273505:android:e50c0cf4de92e1cb640aa0",
+        "android_client_info": {
+          "package_name": "com.rehman.medicine"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "917958273505-jfleqeu90a1eejiub6ge533jp8tnr47n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXrpJrhs0cKX2Qa0AM6Jfo5pj0lmI2H0Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "917958273505-jfleqeu90a1eejiub6ge533jp8tnr47n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
