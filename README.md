@@ -1,4 +1,3 @@
-
 We live in an era where everything is just one-click away. Mobile application is making life easier.
 
 In most of the situations, daily life services (Electrician, Plumber, Carpenter, Painter,          labour etc.) are difficult to find now a days. With the help of “EasyKaam” Android App we provide these services to a large variety of users searching for these services. It will empower the users to book services anytime anywhere in a specific location using this application. 
